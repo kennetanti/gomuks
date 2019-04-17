@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"image/color"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/lib/ansimage"
-	"maunium.net/go/gomuks/ui/messages/tstring"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/lib/ansimage"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
 )
 
 type ImageMessage struct {

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/gomuks/matrix/pushrules"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
 )
 
 func TestPushActionArray_Should_EmptyArrayReturnsDefaults(t *testing.T) {

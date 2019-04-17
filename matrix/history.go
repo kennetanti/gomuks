@@ -24,8 +24,8 @@ import (
 
 	bolt "go.etcd.io/bbolt"
 
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/tulir/mautrix-go"
 )
 
 type HistoryManager struct {

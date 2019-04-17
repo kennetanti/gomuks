@@ -19,11 +19,11 @@ package messages
 import (
 	"time"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/ui/messages/tstring"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
 )
 
 type ExpandedTextMessage struct {

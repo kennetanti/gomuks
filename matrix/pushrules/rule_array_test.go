@@ -18,8 +18,8 @@ package pushrules_test
 
 import (
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/gomuks/matrix/pushrules"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
+	"github.com/tulir/mautrix-go"
 	"testing"
 )
 

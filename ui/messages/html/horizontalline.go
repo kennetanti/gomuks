@@ -19,7 +19,7 @@ package html
 import (
 	"strings"
 
-	"maunium.net/go/mauview"
+	"github.com/tulir/mauview"
 )
 
 type HorizontalLineEntity struct {

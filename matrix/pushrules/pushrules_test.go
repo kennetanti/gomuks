@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/mautrix"
-	"maunium.net/go/gomuks/matrix/pushrules"
+	"github.com/tulir/mautrix-go"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
 )
 
 func TestEventToPushRules(t *testing.T) {

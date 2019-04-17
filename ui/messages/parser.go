@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strings"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/gomuks/ui/messages/html"
-	"maunium.net/go/gomuks/ui/messages/tstring"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/ui/messages/html"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 func getCachedEvent(mainView ifc.MainView, roomID, eventID string) UIMessage {

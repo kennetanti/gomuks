@@ -27,8 +27,8 @@ import (
 
 	"github.com/lucasb-eyer/go-colorful"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/tulir/mautrix-go"
 )
 
 func cmdMe(cmd *Command) {

@@ -19,7 +19,7 @@ package pushrules
 import (
 	"encoding/json"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 )
 
 type PushRuleset struct {

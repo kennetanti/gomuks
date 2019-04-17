@@ -17,7 +17,7 @@
 package ifc
 
 import (
-	"maunium.net/go/gomuks/config"
+	"github.com/kennetanti/gomuks/config"
 )
 
 // Gomuks is the wrapper for everything.

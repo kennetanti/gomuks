@@ -26,19 +26,19 @@ import (
 	"github.com/kyokomi/emoji"
 	"github.com/mattn/go-runewidth"
 
-	"maunium.net/go/gomuks/debug"
+	"github.com/kennetanti/gomuks/debug"
 
-	"maunium.net/go/mauview"
+	"github.com/tulir/mauview"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/lib/util"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/gomuks/ui/messages"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/lib/util"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/ui/messages"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 type RoomView struct {

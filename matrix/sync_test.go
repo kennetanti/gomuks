@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/gomuks/matrix"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/matrix"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/tulir/mautrix-go"
 )
 
 func TestGomuksSyncer_ProcessResponse_Initial(t *testing.T) {

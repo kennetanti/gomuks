@@ -23,11 +23,11 @@ import (
 
 	"github.com/lithammer/fuzzysearch/fuzzy"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/matrix/rooms"
 )
 
 type FuzzySearchModal struct {

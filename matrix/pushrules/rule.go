@@ -19,9 +19,9 @@ package pushrules
 import (
 	"encoding/gob"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/lib/glob"
+	"github.com/kennetanti/gomuks/lib/glob"
 )
 
 func init() {

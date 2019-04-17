@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/ui/messages/tstring"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
 )
 
 type TextMessage struct {

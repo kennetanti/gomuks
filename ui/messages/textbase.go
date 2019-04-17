@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/ui/messages/tstring"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
 )
 
 // Regular expressions used to split lines when calculating the buffer.

@@ -19,9 +19,9 @@ package ifc
 import (
 	"time"
 
-	"maunium.net/go/gomuks/matrix/pushrules"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/tulir/mautrix-go"
 )
 
 type UIProvider func(gmx Gomuks) GomuksUI

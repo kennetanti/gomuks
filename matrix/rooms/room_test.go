@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/tulir/mautrix-go"
 )
 
 func TestNewRoom_DefaultValues(t *testing.T) {

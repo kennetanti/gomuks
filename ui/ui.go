@@ -19,10 +19,10 @@ package ui
 import (
 	"os"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/interface"
+	"github.com/kennetanti/gomuks/interface"
 )
 
 type View string

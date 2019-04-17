@@ -23,16 +23,16 @@ import (
 	"time"
 	"unicode"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/lib/notification"
-	"maunium.net/go/gomuks/matrix/pushrules"
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/lib/notification"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 type MainView struct {

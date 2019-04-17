@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"maunium.net/go/gomuks/config"
+	"github.com/kennetanti/gomuks/config"
 )
 
 func TestNewConfig_Defaults(t *testing.T) {

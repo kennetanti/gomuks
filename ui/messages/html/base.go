@@ -18,8 +18,8 @@ package html
 import (
 	"fmt"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 )
 
 type BaseEntity struct {

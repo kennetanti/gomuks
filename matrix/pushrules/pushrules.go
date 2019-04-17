@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 )
 
 // GetPushRules returns the push notification rules for the global scope.

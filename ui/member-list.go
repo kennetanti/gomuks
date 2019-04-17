@@ -22,11 +22,11 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 type MemberList struct {

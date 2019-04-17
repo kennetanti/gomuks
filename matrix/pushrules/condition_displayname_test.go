@@ -17,7 +17,7 @@
 package pushrules_test
 
 import (
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

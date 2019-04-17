@@ -21,11 +21,11 @@ import (
 	"strconv"
 	"strings"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 type OrderedRoom struct {

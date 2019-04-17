@@ -21,7 +21,7 @@ import (
 	"hash/fnv"
 	"sort"
 
-	"maunium.net/go/tcell"
+	"github.com/tulir/tcell"
 )
 
 var colorNames []string

@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"time"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/matrix/rooms"
 )
 
 type SyncerSession interface {

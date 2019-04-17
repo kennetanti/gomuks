@@ -23,15 +23,15 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/lib/open"
-	"maunium.net/go/gomuks/ui/messages"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/lib/open"
+	"github.com/kennetanti/gomuks/ui/messages"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 type MessageView struct {

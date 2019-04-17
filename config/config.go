@@ -25,11 +25,11 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/matrix/pushrules"
-	"maunium.net/go/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/matrix/pushrules"
+	"github.com/kennetanti/gomuks/matrix/rooms"
 )
 
 type AuthCache struct {

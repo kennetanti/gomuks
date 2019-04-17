@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"time"
 
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/gomuks/ui"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/kennetanti/gomuks/ui"
 )
 
 var MainUIProvider ifc.UIProvider = ui.NewGomuksUI

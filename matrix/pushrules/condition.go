@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/lib/glob"
+	"github.com/kennetanti/gomuks/lib/glob"
 )
 
 // Room is an interface with the functions that are needed for processing room-specific push conditions

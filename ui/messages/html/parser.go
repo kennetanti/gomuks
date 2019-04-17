@@ -27,11 +27,11 @@ import (
 	"github.com/lucasb-eyer/go-colorful"
 	"golang.org/x/net/html"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/matrix/rooms"
-	"maunium.net/go/gomuks/ui/widget"
+	"github.com/kennetanti/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/ui/widget"
 )
 
 var matrixToURL = regexp.MustCompile("^(?:https?://)?(?:www\\.)?matrix\\.to/#/([#@!].*)")

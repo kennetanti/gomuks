@@ -22,8 +22,8 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"maunium.net/go/gomuks/ui/widget"
-	"maunium.net/go/mauview"
+	"github.com/kennetanti/gomuks/ui/widget"
+	"github.com/tulir/mauview"
 )
 
 type TextEntity struct {

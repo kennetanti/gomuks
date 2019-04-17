@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/debug"
+	"github.com/kennetanti/gomuks/debug"
 )
 
 func init() {

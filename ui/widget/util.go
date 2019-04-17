@@ -22,8 +22,8 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 )
 
 func WriteLineSimple(screen mauview.Screen, line string, x, y int) {

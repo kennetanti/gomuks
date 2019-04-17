@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/mautrix"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/tulir/mautrix-go"
 )
 
 func TestContainer_InitClient_Empty(t *testing.T) {

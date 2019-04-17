@@ -26,9 +26,9 @@ import (
 	_ "golang.org/x/image/bmp"  // initialize decoder
 	_ "golang.org/x/image/tiff" // initialize decoder
 	_ "golang.org/x/image/webp" // initialize decoder
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/ui/messages/tstring"
-	"maunium.net/go/tcell"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/ui/messages/tstring"
+	"github.com/tulir/tcell"
 )
 
 var (

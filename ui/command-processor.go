@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
 )
 
 type gomuksPointerContainer struct {

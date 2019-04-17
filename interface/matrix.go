@@ -17,9 +17,9 @@
 package ifc
 
 import (
-	"maunium.net/go/mautrix"
+	"github.com/tulir/mautrix-go"
 
-	"maunium.net/go/gomuks/matrix/rooms"
+	"github.com/kennetanti/gomuks/matrix/rooms"
 )
 
 type MatrixContainer interface {

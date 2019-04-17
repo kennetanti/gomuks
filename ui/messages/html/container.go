@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"maunium.net/go/mauview"
+	"github.com/tulir/mauview"
 )
 
 type ContainerEntity struct {

@@ -17,14 +17,14 @@
 package ui
 
 import (
-	"maunium.net/go/tcell"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mauview"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/mauview"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/debug"
-	"maunium.net/go/gomuks/interface"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/debug"
+	"github.com/kennetanti/gomuks/interface"
 )
 
 type LoginView struct {

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/ui/messages/html"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/ui/messages/html"
 )
 
 type HTMLMessage struct {

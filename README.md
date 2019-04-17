@@ -28,10 +28,10 @@ or compile from source:
 Simply pull changes (`git pull`) and run `go build` again to update.
 
 ## Developing
-For debugging, use `tail -f /tmp/gomuks-debug.log` and write to it using the methods in the `maunium.net/go/gomuks/debug` package:
+For debugging, use `tail -f /tmp/gomuks-debug.log` and write to it using the methods in the `github.com/kennetanti/gomuks/debug` package:
 ```go
 import (
-	"maunium.net/go/gomuks/debug"
+	"github.com/kennetanti/gomuks/debug"
 )
 ...
 func Foo() {

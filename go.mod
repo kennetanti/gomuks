@@ -1,4 +1,4 @@
-module maunium.net/go/gomuks
+module github.com/kennetanti/gomuks
 
 go 1.12
 
@@ -19,7 +19,7 @@ require (
 	golang.org/x/sys v0.0.0-20190410170021-cc4d4f50624c // indirect
 	gopkg.in/toast.v1 v1.0.0-20180812000517-0a84660828b2 // indirect
 	gopkg.in/yaml.v2 v2.2.2
-	maunium.net/go/mautrix v0.1.0-alpha.3.0.20190410194750-53c7c9d954c8
-	maunium.net/go/mauview v0.0.0-20190406150001-ad4a4e562f9e
-	maunium.net/go/tcell v0.0.0-20190406145848-d520315b0ddb
+	github.com/tulir/mautrix-go v0.1.0-alpha.3.0.20190410194750-53c7c9d954c8
+	github.com/tulir/mauview v0.0.0-20190406150001-ad4a4e562f9e
+	github.com/tulir/tcell v0.0.0-20190406145848-d520315b0ddb
 )

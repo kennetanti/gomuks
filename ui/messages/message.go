@@ -17,11 +17,11 @@
 package messages
 
 import (
-	"maunium.net/go/gomuks/config"
-	"maunium.net/go/gomuks/interface"
-	"maunium.net/go/mautrix"
-	"maunium.net/go/mauview"
-	"maunium.net/go/tcell"
+	"github.com/kennetanti/gomuks/config"
+	"github.com/kennetanti/gomuks/interface"
+	"github.com/tulir/mautrix-go"
+	"github.com/tulir/mauview"
+	"github.com/tulir/tcell"
 )
 
 // UIMessage is a wrapper for the content and metadata of a Matrix message intended to be displayed.
